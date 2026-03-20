@@ -38,8 +38,49 @@ A proposta tem como foco o aprendizado prático de:
 
 ## 📂 Estrutura do projeto
 
-```bash
-📁 web-page-at1
- ├── index.html
- ├── style.css
- └── assets/
+```text
+app/
+├── server.js
+├── package.json
+├── .env
+└── public/
+    ├── assets/
+    │   ├── css/
+    │   └── img/
+    ├── pages/
+    ├── index.html
+    ├── login.html
+    ├── cadastro.html
+    └── 404.html
+```
+
+## ✨ Recursos do Projeto
+
+- 🔑 Sistema de rotas para login  
+- 🧾 Página dedicada para cadastro de usuários  
+- 🚫 Tratamento de rotas inválidas com página 404 personalizada  
+- 📦 Servidor configurado para servir arquivos estáticos  
+- 🎨 Feedback visual para melhorar a experiência do usuário  
+
+---
+
+## 🚀 Executando o projeto
+
+
+Siga os passos abaixo para rodar a aplicação localmente:
+
+1. Clone o repositório:
+    ```bash 
+   git clone https://github.com/juliasilverio-dev/web-page-at1.git
+
+2. Instale as dependências:
+    ```bash
+    npm install
+
+3. Inicie o servidor:
+    ```bash
+    npm start 
+
+4. Acesse no navegador:
+    ```bash
+    http://localhost:3001
