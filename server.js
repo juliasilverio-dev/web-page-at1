@@ -30,7 +30,7 @@ app.get("/", function(_req,res){
 });
 
 app.get("/Login", function(_req,res){
-    res.sendFile( path.join(pagesPath,"Login.html") );
+    res.sendFile( path.join(pagesPath,"login.html") );
 });
 
 app.get("/Cadastro", function(_req,res){
